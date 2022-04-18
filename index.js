@@ -7,11 +7,11 @@
 process.exitcode = 1;
 
 process.on('beforeExit', () => {
-  console.log('beforeExit event');
+    console.log('beforeExit event');
 });
 
 process.on('exit', (code) => {
-  console.log(`exit event with code ${code}`);
+    console.log(`exit event with code ${code}`);
 });
 
 //process.stdout :does not force a new line break
@@ -111,4 +111,9 @@ console.log(path.normalize('./app//src//util/..'));
 // =====================================
 // Typing
 // JavaScript is loosely Type:
-console.log(2+'2'); //result is 22
+//ex:
+console.log(2 + '2'); //result is 22
+
+//so, typeScript adds Typing to javaScript
+//TypeScript is a static and strong typed superset of JavaScript.
+// When we're done with our TypeScript code, it compiles to JavaScript.
