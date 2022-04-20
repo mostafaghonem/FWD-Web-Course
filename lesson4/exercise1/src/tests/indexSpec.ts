@@ -1,6 +1,6 @@
-import arrays from '../src/utilities/arrays';
-import numbers from '../src/utilities/numbers';
-import strings from '../src/utilities/strings';
+import arrays from '../utilities/arrays';
+import numbers from '../utilities/numbers';
+import strings from '../utilities/strings';
 
 const numArr = [3,4,5,6];
 const wordArr = ['cat' , 'dog' , 'rabbit' , 'bird'];
