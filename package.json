@@ -12,7 +12,7 @@
     "test": "jasmine-ts",
     "start": "nodemon lesson5/exercise1/index.ts"
   },
-  "author": "Elshafeay",
+  "author": "Mostafa-Ghonem",
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.17.9",
