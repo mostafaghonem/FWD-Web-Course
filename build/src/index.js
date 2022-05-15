@@ -326,3 +326,15 @@ function myFnc(num) {
 const arr2 = [1, 2, 3];
 const arr3 = [1, 2, 3];
 module.exports = { arr2, arr3, myFnc };
+// =============================================
+//Session 3
+/*
+ - Express
+ - REST conventions
+ - Middleware
+ - Error handler
+ app.use((err , req , res , next)=>{
+     console.log(err);
+     res.status(400).send("Something went Wrong");//waht U want what appears to the user
+ })
+*/ 

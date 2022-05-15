@@ -1,5 +1,5 @@
 {
-    "spec_dir": "lesson4/supertest/src/tests",
+    "spec_dir": "src/model/tests",
     "spec_files": [
         "**/*[sS]pec.ts"
     ],
